@@ -1,0 +1,19 @@
+.title__div{
+    display: flex;
+}
+
+
+@media screen and (min-width:0) {
+    .title__div{
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width:425px) {
+    .title__div{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,21 @@
+.experience__text{
+    color: var(--preto-100, #464646);
+    
+    font-family: Raleway;
+    font-weight: 500;
+}
+
+
+@media screen and (min-width:0) {
+    .experience__text{
+        font-size: 0.875rem;
+      
+    }
+}
+
+
+@media screen and (min-width:768px) {
+        .experience__text{
+            font-size: 1rem;
+        }
+}

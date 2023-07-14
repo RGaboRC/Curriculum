@@ -1,0 +1,21 @@
+.formcontato__contacto{
+    display: flex;
+    
+    gap: 1rem;
+    
+}
+
+@media screen and (min-width:768) {
+    .formcontato__contacto{
+        width: 71rem;
+        padding: 4rem 0rem 0rem 0rem;
+    }
+}
+
+
+@media screen and (min-width:0) {
+    .formcontato__contacto{
+   width: 90%;  
+   padding: 2rem 0rem 0rem 0rem;
+margin: 2rem;  }
+}

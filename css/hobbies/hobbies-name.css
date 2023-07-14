@@ -1,0 +1,6 @@
+.hobbies__name{
+    color: var(--preto-100, #464646);
+    font-size: 1rem;
+    font-family: Raleway;
+    font-weight: 700;
+}

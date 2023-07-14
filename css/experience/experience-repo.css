@@ -1,0 +1,35 @@
+.experience__repo{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid var(--azul-100, #2A7AE4);
+}
+.experiencia__botao--repo{
+    border: none;
+    background: none;
+    color: var(--azul-100, #2A7AE4);
+    font-family: Raleway;
+}
+
+@media screen and (min-width:0) {
+    .experience__repo{
+        gap: 0.425rem;
+    }
+    .experiencia__botao--repo{
+        font-size: 0.875rem;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+        .experience__repo{
+            gap: 0.625rem;
+        }
+        .experiencia__botao--repo{
+        
+            font-size: 1rem;
+            
+        }
+}

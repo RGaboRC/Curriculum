@@ -1,0 +1,47 @@
+.about__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0;
+}
+.about__paragraph{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    color: var(--preto-100, #464646);
+    
+    font-family: Raleway;
+    
+}
+
+.about__title{
+    color: var(--preto-100, #464646);
+    
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+
+
+@media screen and (min-width:0) {
+    .about__title{
+        font-size: 1.375rem;
+
+    }
+
+    .about__paragraph{
+        font-size: 0.875rem;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .about__title{
+        font-size: 2rem;
+    }
+
+    .about__paragraph{
+        font-size: 1rem;
+    }
+}

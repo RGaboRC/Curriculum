@@ -1,0 +1,17 @@
+.formcontato--esquerda{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+@media screen and (min-width:768) {
+    .formcontato--esquerda{
+        width: 80%;
+        padding: 4rem 0rem 0rem 0rem;
+    }
+}
+
+
+@media screen and (min-width:0) {
+    .formcontato--esquerda{
+    display: none;    }
+}

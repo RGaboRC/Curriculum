@@ -1,0 +1,22 @@
+.experience__box{
+    display: flex;
+    
+    gap: 1rem;
+}
+
+
+@media screen and (min-width:0) {
+    .experience__box{
+    flex-direction: column;    
+    }
+}
+
+
+@media screen and (min-width:768px) {
+        .experience__box{
+        flex-direction: row;   
+        width: 71rem;
+        align-items: center;
+        height: 25.375rem; 
+        }
+}

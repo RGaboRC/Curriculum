@@ -1,0 +1,37 @@
+.experience__demo{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    background: var(--azul-100, #2A7AE4);
+}
+
+.experience__botao--demo{
+    border: none;
+    background: none;
+    color: var(--preto-branco, #FFF);
+    font-size: 1rem;
+    font-family: Raleway;
+}
+
+@media screen and (min-width:0) {
+    .experience__demo{
+        gap: 0.425rem;
+    }
+    .experience__botao--demo{
+        font-size: 0.875rem;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+        .experience__demo{
+            gap: 0.625rem;
+        }
+        .experience__botao--demo{
+        
+            font-size: 1rem;
+            
+        }
+}

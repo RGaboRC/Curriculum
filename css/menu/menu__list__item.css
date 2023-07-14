@@ -1,0 +1,26 @@
+.menu__list__item{
+    color: var(--preto-100, #464646);
+    font-size: 1rem;
+    font-family: Raleway;
+    font-weight: 500;
+}
+.menu__list__item__contato{
+    color: var(--preto-100, #464646);
+    font-size: 1rem;
+    font-family: Raleway;
+    font-weight: 700;
+    
+}
+
+@media screen and (min-width:0) {
+    .menu__list__item{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .menu__list__item{
+        display: flex;
+    }
+}

@@ -1,0 +1,100 @@
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    gap: .5rem;
+}
+
+.formcontato__title{
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-weight: 700;
+    margin: 0;
+    gap: .5rem;
+}
+
+.formcontato__subtext{
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    gap: 2rem;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    align-self: stretch;
+}
+
+.formcontato__input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+.formcontato__textarea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+    color: var(--preto-50, #A2A2A2);
+    
+    font-family: Raleway;
+    line-height: 1.25rem;
+}
+.formcontato__botao{
+    background: var(--azul-100, #2A7AE4);
+    border: none;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    color: var(--preto-branco, #FFF);
+    
+    font-family: Raleway;
+}
+
+@media screen and (min-width:0) {
+    .formcontato__botao{
+        font-size: 0.875rem;
+
+    }
+    .formcontato__textarea{
+        font-size: 0.875rem;
+    }
+
+    .formcontato__subtext{
+        font-size: 0.875rem;
+
+    }
+    .formcontato__title{
+        font-size: 1.35rem;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+        .formcontato__botao{
+            font-size: 1rem;
+
+        }
+        .formcontato__textarea{
+            font-size: 1rem;
+        }
+
+        .formcontato__subtext{
+            font-size: 1rem;
+
+        }
+        .formcontato__title{
+            font-size: 2rem;
+        }
+}
